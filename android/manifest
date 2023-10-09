@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: ti.jitsi
+author: Michael Gangolf
+license: Specify your license
+copyright: Copyright (c) 2022 by Your Company
+
+# these should not be edited
+name: ti.jitsi
+moduleid: ti.jitsi
+guid: 6cf350a7-c55b-4c38-9339-ac704ca93794
+platform: android
+minsdk: 10.1.1.GA

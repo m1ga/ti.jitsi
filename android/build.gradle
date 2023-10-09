@@ -1,0 +1,12 @@
+repositories {
+        google()
+
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
+}
+
+dependencies {
+// https://github.com/jitsi/jitsi-meet-release-notes/blob/master/CHANGELOG-MOBILE-SDKS.md
+	implementation ('org.jitsi.react:jitsi-meet-sdk:8.4.0') { transitive = true }
+}
